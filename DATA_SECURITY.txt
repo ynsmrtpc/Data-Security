@@ -1,0 +1,19 @@
+TALİMATLAR: İYİ matematik yazmalısınız; açık, anlamlı, tutarlı. Tam kredi almak için çalışmanızın her adımını gösterin. Bir hesaplama için bir programlama platformu kullanıyorsanız, sonucu üreten komut setini yazın. TEK PDF dosyası yükleyin. Okunabilir olmalıdır. Geç ödev kabul edilmez.
+
+1. (25 puan) Ekli pdf dosyasında şifreli metinler bulunmaktadır. Tablo 1, 2 veya 3'teki satır numaranıza (1 ile 166 arasında) bakın ve ekli dosyada kendi şifreli metninizi bulun. Bir İkame Şifresinden elde edilen kendi şifreli metninizin şifresini çözün. Düz metin eşit parçalara bölündüğü için başında veya sonunda anlamsız kelimeler olabileceğini unutmayın.
+
+2. (35 puan) Aşağıdaki adımları takip ederek alacağınız girişin S-Box çıkışını bulunuz:
+(a) Öğrenci numaranızın son 8 hanesini alın ve her hanenin mod 2'sini alın.
+(b) Satır numaranızı (1'den 166'ya kadar) 8 uzunluğundaki ikili dizeye dönüştürün (gerekirse ilk basamakları 0'larla doldurarak).
+(c) Bu iki ikili diziyi XOR yapın.
+(d) F28 = F2[x]/ < x8 + x4 + x3 + x + 1 > alanında bu ikili dizginin karşılık gelen polinomunu bulun.
+(e) Bu polinomun F28'deki tersini bulun ve ikiliye dönüştürün.
+
+3. (25 puan) Tablodan kendi p asal sayınızı bulun.
+(a) F∗ p çarpım grubunu göz önünde bulundurun ve bunun bir üretecini (ilkel kök) bulun. İpucu: F∗ p ϕ(p) = p − 1 elemana sahiptir ve bir elemanın mertebesi, grubun mertebesini bölmelidir.
+(b) 5 mod p'nin tersini hesaplamak için genişletilmiş Öklid Algoritmasını kullanın.
+
+4. (35 puan) Tablodan kendi q asal sayınızı bulunuz.
+(a) F∗q çarpım grubunu göz önünde bulundurun ve bunun bir üretecini (ilkel kök) bulun.
+(b) Alice ve Bob arasındaki gizli değerleri a = 32 ve b = 64 olarak seçecek şekilde Diffie-Hellman'ın adımlarını gösterin. A = ga ve B = gb değerleri nelerdir. Kararlaştırılan anahtar nedir?
+(c) 7 mod q'nun tersini hesaplamak için Fermat'ın Küçük Teoremini kullanın.
